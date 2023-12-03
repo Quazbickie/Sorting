@@ -10,7 +10,6 @@ public class MergeSort {
     public static void MergeSort(int[] array){
 
         int inputLength = array.length;
-
         if(inputLength < 2) return;
 
         int midIndex = inputLength / 2;
